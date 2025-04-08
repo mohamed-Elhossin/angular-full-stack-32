@@ -1,0 +1,27 @@
+.card {
+  padding: 20px;
+  margin: 29px 0px;
+  color: white !important;
+  box-shadow: 0 0 0 10px gray;
+}
+
+.card-body {
+  border-radius: 10px;
+  color: white !important;
+}
+
+.form-group {
+  margin: 10px 0px;
+}
+.form-control {
+  margin: 10px 0px;
+}
+table,
+tr,
+td,
+th {
+  color: black;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+}
