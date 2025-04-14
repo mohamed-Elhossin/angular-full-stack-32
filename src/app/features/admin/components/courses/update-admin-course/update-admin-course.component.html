@@ -1,1 +1,71 @@
-<p>update-admin-course works!</p>
+<div class="container col-md-7">
+  <div class="card">
+    <h6>
+      Update Courses
+      <a class="btn btn-link float-end" routerLink="/admins/lc">Back New</a>
+    </h6>
+    <div class="card-body">
+      <form [formGroup]="courseForm">
+        <div class="form-group">
+          <input
+            type="text"
+            formControlName="course_name"
+            class="form-control"
+            placeholder="course_name"
+          />
+
+
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            formControlName="description"
+            class="form-control"
+            placeholder="description"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            formControlName="price"
+            class="form-control"
+            placeholder="price"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            formControlName="course_image"
+            class="form-control"
+            placeholder="course_image"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            formControlName="teacher_photo"
+            class="form-control"
+            placeholder="teacher_photo"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            formControlName="teacherName"
+            class="form-control"
+            placeholder="teacherName"
+          />
+        </div>
+        <div class="d-grid my-3">
+          <button
+
+            (click)="onsubmit()"
+            class="btn btn-warning"
+          >
+            Update New
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

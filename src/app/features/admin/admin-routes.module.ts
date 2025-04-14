@@ -1,4 +1,4 @@
- 
+
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LayoutComponent } from './layout/layout.component';
@@ -18,7 +18,7 @@ const route: Routes = [
       { path: 'home', component: AdminHomeComponent },
       { path: 'cc', component: CreateAdminCourseComponent },
       { path: 'lc', component: ListadminCourseComponent },
-      { path: 'uc', component: UpdateAdminCourseComponent },
+      { path: 'uc/:id', component: UpdateAdminCourseComponent },
 
       { path: 'ct', component: TrainersAdminCreateComponent },
       { path: 'lt', component: TrainersAdminListComponent },

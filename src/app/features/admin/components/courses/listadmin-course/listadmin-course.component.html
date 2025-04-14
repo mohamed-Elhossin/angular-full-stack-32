@@ -18,7 +18,7 @@
           <th>{{ item.course_name }}</th>
           <th>{{ item.price }}</th>
           <th><button (click)="remove(item.id)" class="btn btn-danger">Delete</button></th>
-          <th><button class="btn btn-warning">Edit</button></th>
+          <th><a routerLink="/admins/uc/{{item.id}}" class="btn btn-warning">Edit</a></th>
           <th><button class="btn btn-info">View</button></th>
         </tr>
         }
